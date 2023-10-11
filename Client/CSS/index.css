@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    box-shadow: -1px 1px 17px -3px rgba(0, 0, 0, 0.75);
+
+}
+
+.profiles{
+display: flex;
+margin-left: -4rem;
+margin-right: 2rem;
+}
+
+.slideshow-container {
+    background-color: antiquewhite;
+    margin: 0 auto; 
+    position: relative;
+    width: 110.9rem;
+    height: 38rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+/* .mySlides {
+    display: none; 
+} */
+
+.mySlides img {
+    width: 100%; 
+    width: 50rem;
+    height: 35rem;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.welcome {
+    display: flex;
+    color: peru;
+    width: 110.9rem;
+    height: 25rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+.text {
+    margin-left: 5rem;
+    line-height: 1.4;
+}
+
+.welcome img {
+    width: 50rem;
+    height: 25rem;
+}
+
+.About {
+    display: flex;
+    background-color: antiquewhite;
+    color: peru;
+    display: flex;
+    width: 110.9rem;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.aboutus {
+    margin-left: 5rem;
+    padding-right: 6rem;
+}
+
+.About img {
+    width: 50rem;
+    height: 25rem;
+}
+
+.categories {
+    display: flex;
+    color: peru;
+    width: 104em;
+    height: 35rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 16.4rem;
+    padding-bottom: 2rem;
+}
+
+#head {
+    text-align: center;
+    margin-bottom: -20rem;
+}
+
+.topcategories {
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 9rem;
+}
+
+#imjs {
+    margin-top: 3rem;
+}
+
+.top {
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 5rem;
+    width: 15.5rem;
+    height: 20rem;
+    margin-right: 8rem;
+    text-align: center;
+    box-shadow: -1px 1px 17px -3px rgba(0, 0, 0, 0.75);
+}
+
+.Products {
+    display: flex;
+    color: peru;
+    background-color: antiquewhite;
+    width: 111rem;
+    height: 70rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#heads {
+    margin-bottom: -4rem;
+    margin-left: 45rem;
+    color: peru;
+}
+
+.someprdu {
+    display: flex;
+    margin-left: 3rem;
+    margin-bottom: 15rem;
+}
+
+.prdu {
+    background-color: white;
+    border-bottom-right-radius: 3rem;
+    width: 21.7rem;
+    height: 25rem;
+    margin-right: 4rem;
+    text-align: center;
+    box-shadow: -1px 1px 17px -3px rgba(0, 0, 0, 0.75);
+}
+.prdu:hover{
+    transform: scale(1.1);
+}
+
+.account{
+position: absolute;
+    display: flex;
+    margin-top: 38rem;
+    margin-left: 2.8rem;
+    background-color: white;
+}
+
+.account p{
+    margin-top: -5rem;
+}
+.accounts{
+    position: relative;
+    margin-top: -1rem !important;
+    width: 11rem;
+    height: 5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: peru;
+    border: none;
+    background-color: white;
+    box-shadow: -1px 1px 17px -3px rgba(0, 0, 0, 0.75);
+}
+
+.Products button {
+    position: absolute;
+    margin-top: 55rem;
+    width: 11rem;
+    height: 5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: peru;
+    border: none;
+    background-color: white;
+    box-shadow: -1px 1px 17px -3px rgba(0, 0, 0, 0.75);
+}
+
+a{
+    text-decoration: none;
+    color: peru;
+    
+}
+
+#explore:hover {
+    text-decoration: none;
+    background-color: peru;
+    color: rgb(129, 86, 30);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 17px -3px rgba(0, 0, 0, 0.75);
+}
+
+ @media screen and (max-width: 1033px) {
+
+    .slideshow-container{
+        margin-left: -20rem;
+    }
+ }
